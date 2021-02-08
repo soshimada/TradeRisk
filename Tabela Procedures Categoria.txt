@@ -1,0 +1,68 @@
+CREATE TABLE (
+  Id int identity primary key
+  Risk varchar(50),
+  Sector varchar(50)
+  Operator char(1)
+  Value decimal
+)
+ -------------------------------------------
+
+CREATE PROCEDURE Upd_Ins_Category(
+  Id integer
+  Risk varchar(50),
+  Sector varchar(50),
+  Operator varchar (50),
+  Value decimal)
+
+AS
+BEGIN
+  IF (EXISTS(SELECT ID FROM CategoryWHERE (Id  = Id ))) THEN
+
+    UPDATE Category
+
+    SET Risk = Risk,
+        Sector = Sector,
+        Operator = Operator,
+        Value = Value 
+
+    WHERE (Id  = :Id );
+
+  ELSE
+
+    INSERT INTO CLIENTES (
+        Id ,
+        Risk ,
+        Operator 
+        Value)
+
+    VALUES (
+        Id ,
+        Risk ,
+        Operator 
+        Value));
+END
+----------------------------------------
+
+CREATE PROCEDURE Del_Category
+(
+ @Id Int
+ 
+)
+
+AS 
+        BEGIN
+            DELETE [dbo].[Category]  
+            Where Id = @Id
+        END
+--------------------------------------------
+
+CREATE PROCEDURE Sel_Category
+(
+
+)
+
+CREATE PROCEDURE Sel_Category
+AS    
+ 
+   SET NOCOUNT ON;  
+   SELECT * FROM Category
