@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29318.209
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeRisk", "TradeRisk\TradeRisk.csproj", "{6ADC62A1-B7EA-4ED8-ACC5-1B5B5E5F5E0E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Ui", "1.Ui", "{B36487DA-4FF7-4379-BFD5-220B663528B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Domain", "3.Domain", "{826CD9EC-C80A-4F55-983F-1C43F47C00C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Infra", "4.Infra", "{20918B21-77A0-481B-9EDF-699F1D4EE04A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Service", "2.Service", "{F97122D1-BE0B-4FF5-96C3-08B6F73D5008}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeRisk.Domain", "TradeRisk.Domain\TradeRisk.Domain.csproj", "{8AE059E8-7B20-4A15-B83A-CDC88D03C6D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeRisk.Infra", "TradeRisk.Infra\TradeRisk.Infra.csproj", "{E199CDAC-34F8-4918-971F-1A041C30685C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeRisk.Service", "TradeRisk.Service\TradeRisk.Service.csproj", "{E4D0867C-7C68-4EBC-9478-454DBE8E21F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6ADC62A1-B7EA-4ED8-ACC5-1B5B5E5F5E0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ADC62A1-B7EA-4ED8-ACC5-1B5B5E5F5E0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ADC62A1-B7EA-4ED8-ACC5-1B5B5E5F5E0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ADC62A1-B7EA-4ED8-ACC5-1B5B5E5F5E0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AE059E8-7B20-4A15-B83A-CDC88D03C6D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AE059E8-7B20-4A15-B83A-CDC88D03C6D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AE059E8-7B20-4A15-B83A-CDC88D03C6D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AE059E8-7B20-4A15-B83A-CDC88D03C6D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E199CDAC-34F8-4918-971F-1A041C30685C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E199CDAC-34F8-4918-971F-1A041C30685C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E199CDAC-34F8-4918-971F-1A041C30685C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E199CDAC-34F8-4918-971F-1A041C30685C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4D0867C-7C68-4EBC-9478-454DBE8E21F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4D0867C-7C68-4EBC-9478-454DBE8E21F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4D0867C-7C68-4EBC-9478-454DBE8E21F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4D0867C-7C68-4EBC-9478-454DBE8E21F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6ADC62A1-B7EA-4ED8-ACC5-1B5B5E5F5E0E} = {B36487DA-4FF7-4379-BFD5-220B663528B8}
+		{8AE059E8-7B20-4A15-B83A-CDC88D03C6D5} = {826CD9EC-C80A-4F55-983F-1C43F47C00C9}
+		{E199CDAC-34F8-4918-971F-1A041C30685C} = {20918B21-77A0-481B-9EDF-699F1D4EE04A}
+		{E4D0867C-7C68-4EBC-9478-454DBE8E21F8} = {F97122D1-BE0B-4FF5-96C3-08B6F73D5008}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB52FA1A-7663-4DCE-BB03-50A9151CD3DE}
+	EndGlobalSection
+EndGlobal

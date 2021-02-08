@@ -1,0 +1,62 @@
+﻿
+<div class="container">
+    <form>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="txtSetor">Setor</label>
+                    <input class="form-control" id="txtSetor">
+                </div>
+                <div class="form-group">
+                    <label for="txtValue">Value</label>
+                    <input  class="form-control" id="txtValue">
+                </div>
+            </div>
+        </div>
+
+        <button id="btnAddTrade" class="btn btn-primary mb-2">Add Trade</button>
+    </form>
+</div>
+
+<br /><br />
+
+<div class="container" id="divTable" hidden>
+    <div class="row">
+        <div class="col-md-12">
+            <table id="tbTRade" class="table table-striped table-hover">
+                <thead class="thead-light">
+                    <tr>
+                        <th>Sector</th>
+                        <th>Value</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+    <div class="row">
+        <button class="btn btn-primary mb-2" type="submit" id="btnVerificarRIsk">Verificar Risco</button>
+    </div>
+
+    <br />
+    <div class="row">
+
+        <label id="lblCategorias"></label>
+    </div>
+</div>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.9.0/themes/base/jquery-ui.css" />
+<script src="https://code.jquery.com/jquery-1.8.2.js"></script>
+<script src="https://code.jquery.com/ui/1.9.0/jquery-ui.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
+<script src="~/Scripts/Metodos.js"></script>
+<script src="~/Scripts/Requisicao.js"></script>
+
+<script type="text/javascript">
+        $(document).ready(function () {
+        $.noConflict();
+    });
+
+</script>
